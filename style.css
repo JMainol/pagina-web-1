@@ -13,14 +13,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header, footer {
+<<<<<<< HEAD
     background: #c0c0f0;
+=======
+    background: lightpink;
+>>>>>>> parent of ea91f98... Merge pull request #4 from jgonza22/mejoras-web
     position: relative;
     text-align: center;
     font-size: 1.2em;
 }
 
+<<<<<<< HEAD
 header, header:before, header:after { border-bottom: 1px solid #6060c0; }
 footer, footer:before, footer:after { border-top: 1px solid #6060c0; }
+=======
+header, header:before, header:after { border-bottom: 1px solid hotpink; }
+footer, footer:before, footer:after { border-top: 1px solid hotpink; }
+>>>>>>> parent of ea91f98... Merge pull request #4 from jgonza22/mejoras-web
 
 footer {
     margin-top: 50px;
@@ -32,7 +41,11 @@ header:before, header:after, footer:before, footer:after {
     position: absolute;
     height: 100%;
     width: 600px;
+<<<<<<< HEAD
     background: #c0c0f0;
+=======
+    background: lightpink;
+>>>>>>> parent of ea91f98... Merge pull request #4 from jgonza22/mejoras-web
 }
 
 header:before, footer:before { left: 100%; }
@@ -71,8 +84,10 @@ ul#galeria img {
     height: auto;
 }
 
-a {
-    color: blue;
+
+ul#galeria a {
+    color: deeppink;
+
     text-decoration: underline;
     font-weight: bold;
 }
